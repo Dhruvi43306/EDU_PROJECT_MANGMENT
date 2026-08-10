@@ -1,0 +1,1806 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentProjectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\StudentProjectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\ProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\ProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726111321_studentprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082758_studentprojectes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082137_studentproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722165419_removestudnetid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722093145_FixRelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092905_FixForeignKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092841_FixForeignKeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092701_aedd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092519_aeddallfk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120309_AddProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120044_hello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717191026_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717190026_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717181440_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\StudentProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\ProjectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ProjectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\UpdateProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Project\\UpdateProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StatusMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\StatusMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StatusMasterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\StatusMasterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\DepartmentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\DepartmentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\DepartmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\DepartmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\UpdateDepartmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Department\\UpdateDepartmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\DepartmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Department\\DepartmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StudentProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\StudentProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IStudentProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UsersDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\UsersDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\UserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IStudentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\PriorityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\PriorityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\UpdateStudentProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\StudentProject\\UpdateStudentProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\StudentProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\StudentProject\\StudentProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\StudentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\TaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\TaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\WeeklyProgressService .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\WeeklyProgressService .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EvaluationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\EvaluationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\AccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\AccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\EvaluationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\EvaluationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\Priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\Priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\getFacultyDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\getFacultyDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\ITaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\ITaskService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Evalution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Evalution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEvaluationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IEvaluationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124324_overallgradees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260803124324_overallgradees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124250_removeoverallgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260803124250_removeoverallgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\EvalutionDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Evalution\\EvalutionDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803123651_overallgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260803123651_overallgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\NextEvaluationTaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Evalution\\NextEvaluationTaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\TaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Task\\TaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\AddEvaluationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Evalution\\AddEvaluationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\OtpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Service\\OtpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\OtpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\OtpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StatusMasterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\StatusMasterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\WeeklyProgressController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\WeeklyProgressController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\TaskController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\TaskController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IDepartmnetService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IDepartmnetService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStatusMasterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IStatusMasterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IAccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IAccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801075834_weekno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260801075834_weekno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\UpdateEvaluationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Evalution\\UpdateEvaluationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\UpdateStatusMasterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\StatusMaster\\UpdateStatusMasterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\UpdateStudentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Student\\UpdateStudentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\UpdateTaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Task\\UpdateTaskDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UpdateUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\UpdateUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IWeeklyProgressService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IWeeklyProgressService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\WeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\WeeklyProgress\\WeeklyProgressDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801065347_weeklyprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260801065347_weeklyprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\WeeklyProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\WeeklyProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730124942_aedduseridfortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260730124942_aedduseridfortask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730033805_aeddnullbleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260730033805_aeddnullbleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\StudentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Student\\StudentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729154406_aeddstudentname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260729154406_aeddstudentname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729115157_aedduseridforstudnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260729115157_aedduseridforstudnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729113111_removestudentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260729113111_removestudentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\AddFacultyDto\\AddFacultyDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\AddFacultyDto\\AddFacultyDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729051750_deptid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260729051750_deptid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\ProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Project\\ProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728134127_removestuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260728134127_removestuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728121132_prioritycreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260728121132_prioritycreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728120930_priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260728120930_priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Student Project Management System.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\AccountSetUpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AccountSetUpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\StatusMasterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\StatusMaster\\StatusMasterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\OtpResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\OtpResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IotpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IotpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IPriorityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IPriorityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\SendOtpDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\SendOtpDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\AccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AccountSetupTokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\SetPasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\CreateAccountSetup\\SetPasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Configuration\\EmailSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Configuration\\EmailSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\VerifyOtpDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\User\\VerifyOtpDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\ProjectService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\ProjectService.cs",
+              "RelativeToolTip": "Services\\Service\\ProjectService.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAmwJ0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:54:51.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentProjectController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentProjectController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentProjectController.cs",
+              "RelativeToolTip": "Controllers\\StudentProjectController.cs",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAcwGIBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T10:46:35.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateProjectDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\UpdateProjectDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Project\\UpdateProjectDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\UpdateProjectDto.cs",
+              "RelativeToolTip": "Dto\\Project\\UpdateProjectDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:31:55.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IProjectService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IProjectService.cs",
+              "RelativeToolTip": "Services\\Interface\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:53:59.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwGkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:17:46.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T16:56:04.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAJ4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:59:07.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwF4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T05:06:33.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StudentProjectService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\StudentProjectService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentProjectService.cs",
+              "RelativeToolTip": "Services\\Service\\StudentProjectService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T05:35:41.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "Models\\Priority.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Priority.cs",
+              "RelativeToolTip": "Models\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:28:58.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StatusMaster.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StatusMaster.cs",
+              "RelativeDocumentMoniker": "Models\\StatusMaster.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StatusMaster.cs",
+              "RelativeToolTip": "Models\\StatusMaster.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T13:11:35.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StatusMasterService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StatusMasterService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\StatusMasterService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StatusMasterService.cs",
+              "RelativeToolTip": "Services\\Service\\StatusMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T13:04:30.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\DepartmentService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\DepartmentService.cs",
+              "RelativeToolTip": "Services\\Service\\DepartmentService.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAiwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T03:15:22.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAiwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:11:03.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:45:35.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateDepartmentDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\UpdateDepartmentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Department\\UpdateDepartmentDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\UpdateDepartmentDto.cs",
+              "RelativeToolTip": "Dto\\Department\\UpdateDepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:33:15.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Department\\DepartmentDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Department\\DepartmentDto.cs",
+              "RelativeToolTip": "Dto\\Department\\DepartmentDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T03:10:36.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentProject.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StudentProject.cs",
+              "RelativeDocumentMoniker": "Models\\StudentProject.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\StudentProject.cs",
+              "RelativeToolTip": "Models\\StudentProject.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wCkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T07:57:23.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IStudentProjectService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IStudentProjectService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentProjectService.cs",
+              "RelativeToolTip": "Services\\Interface\\IStudentProjectService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T05:36:11.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:00:04.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UsersDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\UsersDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UsersDto.cs",
+              "RelativeToolTip": "Dto\\User\\UsersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T07:18:48.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\RegisterDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\RegisterDto.cs",
+              "RelativeToolTip": "Dto\\User\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T07:28:34.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T14:24:10.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA4wBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T07:17:20.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IStudentService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStudentService.cs",
+              "RelativeToolTip": "Services\\Interface\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:19:54.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PriorityService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\PriorityService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\PriorityService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\PriorityService.cs",
+              "RelativeToolTip": "Services\\Service\\PriorityService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:43:00.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateStudentProjectDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\UpdateStudentProjectDto.cs",
+              "RelativeDocumentMoniker": "Dto\\StudentProject\\UpdateStudentProjectDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\UpdateStudentProjectDto.cs",
+              "RelativeToolTip": "Dto\\StudentProject\\UpdateStudentProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:30:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StudentProjectDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\StudentProjectDto.cs",
+              "RelativeDocumentMoniker": "Dto\\StudentProject\\StudentProjectDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StudentProject\\StudentProjectDto.cs",
+              "RelativeToolTip": "Dto\\StudentProject\\StudentProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T05:37:05.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\UserService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\UserService.cs",
+              "RelativeToolTip": "Services\\Service\\UserService.cs",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAAAHoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:00:24.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\StudentService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\StudentService.cs",
+              "RelativeToolTip": "Services\\Service\\StudentService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:20:21.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\TaskService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\TaskService.cs",
+              "RelativeToolTip": "Services\\Service\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:50:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WeeklyProgressService .cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\WeeklyProgressService .cs",
+              "RelativeDocumentMoniker": "Services\\Service\\WeeklyProgressService .cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\WeeklyProgressService .cs",
+              "RelativeToolTip": "Services\\Service\\WeeklyProgressService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:09:12.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:54:03.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EvaluationService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EvaluationService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\EvaluationService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EvaluationService.cs",
+              "RelativeToolTip": "Services\\Service\\EvaluationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:04:59.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AccountSetupTokens.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\AccountSetupTokens.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\AccountSetupTokens.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\AccountSetupTokens.cs",
+              "RelativeToolTip": "Services\\Service\\AccountSetupTokens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:10:26.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\EmailService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\EmailService.cs",
+              "RelativeToolTip": "Services\\Service\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:32:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EvaluationController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\EvaluationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EvaluationController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\EvaluationController.cs",
+              "RelativeToolTip": "Controllers\\EvaluationController.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAAwNwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:06:09.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\Priority.cs",
+              "RelativeDocumentMoniker": "Controllers\\Priority.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\Priority.cs",
+              "RelativeToolTip": "Controllers\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:43:43.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "getFacultyDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\getFacultyDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\getFacultyDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\getFacultyDto.cs",
+              "RelativeToolTip": "Dto\\User\\getFacultyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T08:28:38.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ITaskService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\ITaskService.cs",
+              "RelativeToolTip": "Services\\Interface\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:50:24.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Evalution.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Evalution.cs",
+              "RelativeDocumentMoniker": "Models\\Evalution.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Evalution.cs",
+              "RelativeToolTip": "Models\\Evalution.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:07:59.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IEvaluationService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEvaluationService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IEvaluationService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEvaluationService.cs",
+              "RelativeToolTip": "Services\\Interface\\IEvaluationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:04:25.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260803124324_overallgradees.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124324_overallgradees.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260803124324_overallgradees.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124324_overallgradees.cs",
+              "RelativeToolTip": "Migrations\\20260803124324_overallgradees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:43:24.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20260803124250_removeoverallgrade.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124250_removeoverallgrade.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260803124250_removeoverallgrade.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803124250_removeoverallgrade.cs",
+              "RelativeToolTip": "Migrations\\20260803124250_removeoverallgrade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:42:51.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EvalutionDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\EvalutionDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Evalution\\EvalutionDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\EvalutionDto.cs",
+              "RelativeToolTip": "Dto\\Evalution\\EvalutionDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:02:40.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260803123651_overallgrade.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803123651_overallgrade.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260803123651_overallgrade.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260803123651_overallgrade.cs",
+              "RelativeToolTip": "Migrations\\20260803123651_overallgrade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:36:51.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "NextEvaluationTaskDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\NextEvaluationTaskDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Evalution\\NextEvaluationTaskDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\NextEvaluationTaskDto.cs",
+              "RelativeToolTip": "Dto\\Evalution\\NextEvaluationTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:03:43.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\TaskDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Task\\TaskDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\TaskDto.cs",
+              "RelativeToolTip": "Dto\\Task\\TaskDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:37:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AddEvaluationDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\AddEvaluationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Evalution\\AddEvaluationDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\AddEvaluationDto.cs",
+              "RelativeToolTip": "Dto\\Evalution\\AddEvaluationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:03:23.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\OtpService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\OtpService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Service\\OtpService.cs",
+              "RelativeToolTip": "Services\\Service\\OtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:42:50.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "OtpController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\OtpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OtpController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\OtpController.cs",
+              "RelativeToolTip": "Controllers\\OtpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T13:21:20.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "StatusMasterController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StatusMasterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatusMasterController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\StatusMasterController.cs",
+              "RelativeToolTip": "Controllers\\StatusMasterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T13:32:21.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "WeeklyProgressController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\WeeklyProgressController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeeklyProgressController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\WeeklyProgressController.cs",
+              "RelativeToolTip": "Controllers\\WeeklyProgressController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAALQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:11:33.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:19:41.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:47:59.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IDepartmnetService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IDepartmnetService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IDepartmnetService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IDepartmnetService.cs",
+              "RelativeToolTip": "Services\\Interface\\IDepartmnetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T03:14:44.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IStatusMasterService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStatusMasterService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IStatusMasterService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IStatusMasterService.cs",
+              "RelativeToolTip": "Services\\Interface\\IStatusMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T13:02:18.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IAccountSetupTokens.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IAccountSetupTokens.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IAccountSetupTokens.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IAccountSetupTokens.cs",
+              "RelativeToolTip": "Services\\Interface\\IAccountSetupTokens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:07:09.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20260801075834_weekno.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801075834_weekno.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260801075834_weekno.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801075834_weekno.cs",
+              "RelativeToolTip": "Migrations\\20260801075834_weekno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:58:34.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UpdateWeeklyProgressDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs",
+              "RelativeDocumentMoniker": "Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs",
+              "RelativeToolTip": "Dto\\WeeklyProgress\\UpdateWeeklyProgressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:32:40.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "UpdateEvaluationDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\UpdateEvaluationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Evalution\\UpdateEvaluationDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Evalution\\UpdateEvaluationDto.cs",
+              "RelativeToolTip": "Dto\\Evalution\\UpdateEvaluationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:32:21.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "Models\\Tasks.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Tasks.cs",
+              "RelativeToolTip": "Models\\Tasks.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:27:46.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UpdateStatusMasterDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\UpdateStatusMasterDto.cs",
+              "RelativeDocumentMoniker": "Dto\\StatusMaster\\UpdateStatusMasterDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\UpdateStatusMasterDto.cs",
+              "RelativeToolTip": "Dto\\StatusMaster\\UpdateStatusMasterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:31:36.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Student\\UpdateStudentDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\UpdateStudentDto.cs",
+              "RelativeToolTip": "Dto\\Student\\UpdateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:31:17.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "UpdateTaskDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\UpdateTaskDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Task\\UpdateTaskDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Task\\UpdateTaskDto.cs",
+              "RelativeToolTip": "Dto\\Task\\UpdateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:30:37.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\UpdateUserDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\UpdateUserDto.cs",
+              "RelativeToolTip": "Dto\\User\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:30:15.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T04:13:41.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IWeeklyProgressService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IWeeklyProgressService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IWeeklyProgressService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IWeeklyProgressService.cs",
+              "RelativeToolTip": "Services\\Interface\\IWeeklyProgressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:08:53.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AddWeeklyProgressDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs",
+              "RelativeDocumentMoniker": "Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs",
+              "RelativeToolTip": "Dto\\WeeklyProgress\\AddWeeklyProgressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:08:28.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "WeeklyProgressDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\WeeklyProgressDto.cs",
+              "RelativeDocumentMoniker": "Dto\\WeeklyProgress\\WeeklyProgressDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\WeeklyProgress\\WeeklyProgressDto.cs",
+              "RelativeToolTip": "Dto\\WeeklyProgress\\WeeklyProgressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:08:09.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20260801065347_weeklyprogress.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801065347_weeklyprogress.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260801065347_weeklyprogress.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260801065347_weeklyprogress.cs",
+              "RelativeToolTip": "Migrations\\20260801065347_weeklyprogress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T06:53:47.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "WeeklyProgress.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\WeeklyProgress.cs",
+              "RelativeDocumentMoniker": "Models\\WeeklyProgress.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\WeeklyProgress.cs",
+              "RelativeToolTip": "Models\\WeeklyProgress.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T06:50:50.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20260730124942_aedduseridfortask.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730124942_aedduseridfortask.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260730124942_aedduseridfortask.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730124942_aedduseridfortask.cs",
+              "RelativeToolTip": "Migrations\\20260730124942_aedduseridfortask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T12:49:42.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20260730033805_aeddnullbleid.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730033805_aeddnullbleid.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260730033805_aeddnullbleid.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260730033805_aeddnullbleid.cs",
+              "RelativeToolTip": "Migrations\\20260730033805_aeddnullbleid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T03:38:05.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\StudentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Student\\StudentDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Student\\StudentDto.cs",
+              "RelativeToolTip": "Dto\\Student\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T19:25:31.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20260729154406_aeddstudentname.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729154406_aeddstudentname.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260729154406_aeddstudentname.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729154406_aeddstudentname.cs",
+              "RelativeToolTip": "Migrations\\20260729154406_aeddstudentname.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T15:44:06.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20260729115157_aedduseridforstudnet.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729115157_aedduseridforstudnet.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260729115157_aedduseridforstudnet.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729115157_aedduseridforstudnet.cs",
+              "RelativeToolTip": "Migrations\\20260729115157_aedduseridforstudnet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:51:57.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20260729113111_removestudentdetail.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729113111_removestudentdetail.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260729113111_removestudentdetail.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729113111_removestudentdetail.cs",
+              "RelativeToolTip": "Migrations\\20260729113111_removestudentdetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:31:11.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AddFacultyDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\AddFacultyDto\\AddFacultyDto.cs",
+              "RelativeDocumentMoniker": "Dto\\AddFacultyDto\\AddFacultyDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\AddFacultyDto\\AddFacultyDto.cs",
+              "RelativeToolTip": "Dto\\AddFacultyDto\\AddFacultyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T12:02:35.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20260729051750_deptid.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729051750_deptid.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260729051750_deptid.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260729051750_deptid.cs",
+              "RelativeToolTip": "Migrations\\20260729051750_deptid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T05:17:50.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Project\\ProjectDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\Project\\ProjectDto.cs",
+              "RelativeToolTip": "Dto\\Project\\ProjectDto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T00:36:57.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20260728134127_removestuid.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728134127_removestuid.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260728134127_removestuid.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728134127_removestuid.cs",
+              "RelativeToolTip": "Migrations\\20260728134127_removestuid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T13:41:27.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20260728121132_prioritycreated.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728121132_prioritycreated.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260728121132_prioritycreated.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728121132_prioritycreated.cs",
+              "RelativeToolTip": "Migrations\\20260728121132_prioritycreated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:11:32.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20260728120930_priority.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728120930_priority.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260728120930_priority.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Migrations\\20260728120930_priority.cs",
+              "RelativeToolTip": "Migrations\\20260728120930_priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:09:30.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Student Project Management System.csproj",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj",
+              "RelativeDocumentMoniker": "Student Project Management System.csproj",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj",
+              "RelativeToolTip": "Student Project Management System.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T16:12:25.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260726111321_studentprojects.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726111321_studentprojects.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726111321_studentprojects.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726111321_studentprojects.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726111321_studentprojects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T11:13:21.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260726082137_studentproject.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082137_studentproject.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726082137_studentproject.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082137_studentproject.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726082137_studentproject.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T08:21:37.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260726082758_studentprojectes.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082758_studentprojectes.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726082758_studentprojectes.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260726082758_studentprojectes.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260726082758_studentprojectes.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T08:27:59.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260722165419_removestudnetid.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722165419_removestudnetid.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722165419_removestudnetid.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722165419_removestudnetid.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722165419_removestudnetid.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T16:54:19.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260722093145_FixRelationships.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722093145_FixRelationships.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722093145_FixRelationships.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722093145_FixRelationships.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722093145_FixRelationships.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:31:45.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260722092905_FixForeignKey.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092905_FixForeignKey.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092905_FixForeignKey.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092905_FixForeignKey.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092905_FixForeignKey.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:29:05.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260722092841_FixForeignKeys.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092841_FixForeignKeys.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092841_FixForeignKeys.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092841_FixForeignKeys.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092841_FixForeignKeys.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:28:41.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260722092701_aedd.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092701_aedd.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092701_aedd.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092701_aedd.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092701_aedd.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:27:01.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260722092519_aeddallfk.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092519_aeddallfk.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092519_aeddallfk.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260722092519_aeddallfk.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260722092519_aeddallfk.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:25:19.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "AccountSetUpController.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\AccountSetUpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountSetUpController.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Controllers\\AccountSetUpController.cs",
+              "RelativeToolTip": "Controllers\\AccountSetUpController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:17:37.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "StatusMasterDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\StatusMasterDto.cs",
+              "RelativeDocumentMoniker": "Dto\\StatusMaster\\StatusMasterDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\StatusMaster\\StatusMasterDto.cs",
+              "RelativeToolTip": "Dto\\StatusMaster\\StatusMasterDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T13:11:58.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "OtpResponseDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\OtpResponseDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\OtpResponseDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\OtpResponseDto.cs",
+              "RelativeToolTip": "Dto\\User\\OtpResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T12:36:04.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IotpService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IotpService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IotpService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IotpService.cs",
+              "RelativeToolTip": "Services\\Interface\\IotpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:42:17.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IEmailService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:30:57.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "IPriorityService.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IPriorityService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IPriorityService.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Services\\Interface\\IPriorityService.cs",
+              "RelativeToolTip": "Services\\Interface\\IPriorityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:37:53.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260718120309_AddProject.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120309_AddProject.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260718120309_AddProject.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120309_AddProject.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260718120309_AddProject.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T12:03:09.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260718120044_hello.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120044_hello.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260718120044_hello.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260718120044_hello.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260718120044_hello.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T12:00:44.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "SendOtpDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\SendOtpDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\SendOtpDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\SendOtpDto.cs",
+              "RelativeToolTip": "Dto\\User\\SendOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T13:08:05.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "AccountSetupTokens.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\AccountSetupTokens.cs",
+              "RelativeDocumentMoniker": "Models\\AccountSetupTokens.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Models\\AccountSetupTokens.cs",
+              "RelativeToolTip": "Models\\AccountSetupTokens.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T13:33:56.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260717191026_Init.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717191026_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717191026_Init.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717191026_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717191026_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T19:10:26.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260717190026_Init.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717190026_Init.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717190026_Init.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717190026_Init.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717190026_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T19:00:26.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260717181440_InitialCreate.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717181440_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717181440_InitialCreate.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Migrations\\20260717181440_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\student-web-api2\\Student Project Management System\\Migrations\\20260717181440_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T18:14:40.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "VerifyAccountSetupResponseDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs",
+              "RelativeToolTip": "Dto\\CreateAccountSetup\\VerifyAccountSetupResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:07:25.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "SetPasswordDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\SetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateAccountSetup\\SetPasswordDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\SetPasswordDto.cs",
+              "RelativeToolTip": "Dto\\CreateAccountSetup\\SetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:07:49.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Configuration\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Configuration\\EmailSettings.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Configuration\\EmailSettings.cs",
+              "RelativeToolTip": "Configuration\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:25:10.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "VerifyAccountSetupTokenDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs",
+              "RelativeToolTip": "Dto\\CreateAccountSetup\\VerifyAccountSetupTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:06:50.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "CreateAccountSetupTokenDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs",
+              "RelativeToolTip": "Dto\\CreateAccountSetup\\CreateAccountSetupTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:06:13.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "VerifyOtpDto.cs",
+              "DocumentMoniker": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\VerifyOtpDto.cs",
+              "RelativeDocumentMoniker": "Dto\\User\\VerifyOtpDto.cs",
+              "ToolTip": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Dto\\User\\VerifyOtpDto.cs",
+              "RelativeToolTip": "Dto\\User\\VerifyOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:31:50.827Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
