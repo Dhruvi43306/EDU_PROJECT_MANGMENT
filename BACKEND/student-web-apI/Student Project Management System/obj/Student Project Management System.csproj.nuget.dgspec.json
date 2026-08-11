@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Student Project Management System.csproj": {}
+    "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj": {}
   },
   "projects": {
-    "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Student Project Management System.csproj": {
+    "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Student Project Management System.csproj",
+        "projectUniqueName": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj",
         "projectName": "Student Project Management System",
-        "projectPath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Student Project Management System.csproj",
+        "projectPath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\obj\\",
+        "outputPath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

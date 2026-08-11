@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hlk4HkSuj1o=",
+  "dgSpecHash": "Bs3a2ZibiGY=",
   "success": true,
-  "projectFilePath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\student-web-api2\\Student Project Management System\\Student Project Management System.csproj",
+  "projectFilePath": "D:\\D\\CODES\\My Project\\BACKEND_PROJECT\\STUDENT_PROJECT\\BACKEND\\student-web-apI\\Student Project Management System\\Student Project Management System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",

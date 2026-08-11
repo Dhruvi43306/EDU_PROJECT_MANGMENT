@@ -315,10 +315,10 @@ D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\St
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\staticwebassets.development.json
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\swae.build.ex.cache
-D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\Student .A116E1F3.Up2Date
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\Student Project Management System.dll
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\refint\Student Project Management System.dll
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\Student Project Management System.pdb
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\Student Project Management System.genruntimeconfig.cache
 D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\ref\Student Project Management System.dll
+D:\D\CODES\My Project\BACKEND_PROJECT\STUDENT_PROJECT\BACKEND\student-web-apI\Student Project Management System\obj\Debug\net10.0\Student Project Management System.sourcelink.json
