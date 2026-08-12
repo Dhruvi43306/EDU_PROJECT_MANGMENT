@@ -1,0 +1,115 @@
+ .../.dockerignore                                  |   30 [31m-[m
+ .../Student Project Management System/.gitignore   |   62 [31m-[m
+ ...dent project management system.metadata.v10.bin |  Bin [31m2706[m -> [32m0[m bytes
+ ...dent project management system.projects.v10.bin |  Bin [31m774495[m -> [32m0[m bytes
+ ...udent project management system.strings.v10.bin |  Bin [31m182034[m -> [32m0[m bytes
+ .../DesignTimeBuild/.dtbcache.v2                   |  Bin [31m227231[m -> [32m0[m bytes
+ .../333e139f-91c9-46a9-b852-0e1c4d2498bf.vsidx     |  Bin [31m107[m -> [32m0[m bytes
+ .../config/applicationhost.config                  | 1016 [31m-----[m
+ .../v18/.futdcache.v2                              |  Bin [31m211[m -> [32m0[m bytes
+ .../v18/.suo                                       |  Bin [31m572928[m -> [32m0[m bytes
+ .../v18/.wsuo                                      |  Bin [31m616960[m -> [32m0[m bytes
+ .../v18/DocumentLayout.backup.json                 | 1802 [31m---------[m
+ .../v18/DocumentLayout.json                        | 1802 [31m---------[m
+ .../.vs/VSWorkspaceState.json                      |   10 [31m-[m
+ .../.vs/slnx.sqlite                                |  Bin [31m503808[m -> [32m0[m bytes
+ .../Configuration/EmailSettings.cs                 |   11 [31m-[m
+ .../Controllers/AccountSetUpController.cs          |  102 [31m-[m
+ .../Controllers/DepartmentController.cs            |  172 [31m-[m
+ .../Controllers/EvaluationController.cs            |  255 [31m--[m
+ .../Controllers/OtpController.cs                   |   79 [31m-[m
+ .../Controllers/Priority.cs                        |   57 [31m-[m
+ .../Controllers/ProjectController.cs               |  123 [31m-[m
+ .../Controllers/StatusMasterController.cs          |  122 [31m-[m
+ .../Controllers/StudentController.cs               |   78 [31m-[m
+ .../Controllers/StudentProjectController.cs        |  448 [31m---[m
+ .../Controllers/TaskController.cs                  |   91 [31m-[m
+ .../Controllers/UsersController.cs                 |  117 [31m-[m
+ .../Controllers/WeeklyProgressController.cs        |  181 [31m-[m
+ .../Data/AppDbContext.cs                           |  196 [31m-[m
+ .../Student Project Management System/Dockerfile   |   32 [31m-[m
+ .../Dto/AddFacultyDto/AddFacultyDto.cs             |   29 [31m-[m
+ .../CreateAccountSetupTokenDto.cs                  |    7 [31m-[m
+ .../Dto/CreateAccountSetup/SetPasswordDto.cs       |    9 [31m-[m
+ .../VerifyAccountSetupResponseDto.cs               |   11 [31m-[m
+ .../VerifyAccountSetupTokenDto.cs                  |    7 [31m-[m
+ .../Dto/Department/DepartmentDto.cs                |   22 [31m-[m
+ .../Dto/Department/UpdateDepartmentDto.cs          |   15 [31m-[m
+ .../Dto/Evalution/AddEvaluationDto.cs              |   25 [31m-[m
+ .../Dto/Evalution/EvalutionDto.cs                  |   31 [31m-[m
+ .../Dto/Evalution/NextEvaluationTaskDto.cs         |   23 [31m-[m
+ .../Dto/Evalution/UpdateEvaluationDto.cs           |   35 [31m-[m
+ .../Dto/Project/ProjectDto.cs                      |   45 [31m-[m
+ .../Dto/Project/UpdateProjectDto.cs                |   30 [31m-[m
+ .../Dto/StatusMaster/StatusMasterDto.cs            |   18 [31m-[m
+ .../Dto/StatusMaster/UpdateStatusMasterDto.cs      |   14 [31m-[m
+ .../Dto/Student/StudentDto.cs                      |   21 [31m-[m
+ .../Dto/Student/UpdateStudentDto.cs                |   17 [31m-[m
+ .../Dto/StudentProject/StudentProjectDto.cs        |   43 [31m-[m
+ .../Dto/StudentProject/UpdateStudentProjectDto.cs  |   24 [31m-[m
+ .../Dto/Task/TaskDto.cs                            |   39 [31m-[m
+ .../Dto/Task/UpdateTaskDto.cs                      |   41 [31m-[m
+ .../Dto/User/LoginDto.cs                           |   15 [31m-[m
+ .../Dto/User/LoginResponseDto.cs                   |   15 [31m-[m
+ .../Dto/User/OtpResponseDto.cs                     |   11 [31m-[m
+ .../Dto/User/RegisterDto.cs                        |   34 [31m-[m
+ .../Dto/User/RegisterResponseDto.cs                |   11 [31m-[m
+ .../Dto/User/SendOtpDto.cs                         |   13 [31m-[m
+ .../Dto/User/UpdateUserDto.cs                      |   37 [31m-[m
+ .../Dto/User/UsersDto.cs                           |   30 [31m-[m
+ .../Dto/User/VerifyOtpDto.cs                       |   19 [31m-[m
+ .../Dto/User/getFacultyDto.cs                      |   13 [31m-[m
+ .../Dto/WeeklyProgress/AddWeeklyProgressDto.cs     |   21 [31m-[m
+ .../Dto/WeeklyProgress/UpdateWeeklyProgressDto.cs  |   28 [31m-[m
+ .../Dto/WeeklyProgress/WeeklyProgressDto.cs        |   23 [31m-[m
+ .../Migrations/20260726123328_Initial.Designer.cs  |  703 [31m----[m
+ .../Migrations/20260726123328_Initial.cs           |  469 [31m---[m
+ .../Migrations/20260728120930_priority.Designer.cs |  703 [31m----[m
+ .../Migrations/20260728120930_priority.cs          |   22 [31m-[m
+ .../20260728121132_prioritycreated.Designer.cs     |  705 [31m----[m
+ .../Migrations/20260728121132_prioritycreated.cs   |   37 [31m-[m
+ .../20260728134127_removestuid.Designer.cs         |  690 [31m----[m
+ .../Migrations/20260728134127_removestuid.cs       |   49 [31m-[m
+ .../20260728165742_removedeptid.Designer.cs        |  687 [31m----[m
+ .../Migrations/20260728165742_removedeptid.cs      |   29 [31m-[m
+ .../Migrations/20260729051750_deptid.Designer.cs   |  700 [31m----[m
+ .../Migrations/20260729051750_deptid.cs            |   50 [31m-[m
+ .../20260729113111_removestudentdetail.Designer.cs |  687 [31m----[m
+ .../20260729113111_removestudentdetail.cs          |  158 [31m-[m
+ ...20260729115157_aedduseridforstudnet.Designer.cs |  697 [31m----[m
+ .../20260729115157_aedduseridforstudnet.cs         |   60 [31m-[m
+ .../20260729154406_aeddstudentname.Designer.cs     |  701 [31m----[m
+ .../Migrations/20260729154406_aeddstudentname.cs   |   29 [31m-[m
+ .../20260730033805_aeddnullbleid.Designer.cs       |  699 [31m----[m
+ .../Migrations/20260730033805_aeddnullbleid.cs     |   54 [31m-[m
+ .../20260730124942_aedduseridfortask.Designer.cs   |  712 [31m----[m
+ .../Migrations/20260730124942_aedduseridfortask.cs |   50 [31m-[m
+ .../20260801062810_evulation.Designer.cs           |  809 [31m----[m
+ .../Migrations/20260801062810_evulation.cs         |   91 [31m-[m
+ .../20260801065347_weeklyprogress.Designer.cs      |  881 [31m-----[m
+ .../Migrations/20260801065347_weeklyprogress.cs    |   67 [31m-[m
+ .../Migrations/20260801075834_weekno.Designer.cs   |  884 [31m-----[m
+ .../Migrations/20260801075834_weekno.cs            |   29 [31m-[m
+ .../20260803123651_overallgrade.Designer.cs        |  888 [31m-----[m
+ .../Migrations/20260803123651_overallgrade.cs      |   29 [31m-[m
+ .../20260803124250_removeoverallgrade.Designer.cs  |  884 [31m-----[m
+ .../20260803124250_removeoverallgrade.cs           |   29 [31m-[m
+ .../20260803124324_overallgradees.Designer.cs      |  888 [31m-----[m
+ .../Migrations/20260803124324_overallgradees.cs    |   29 [31m-[m
+ .../Migrations/AppDbContextModelSnapshot.cs        |  885 [31m-----[m
+ .../Models/AccountSetupTokens.cs                   |   19 [31m-[m
+ .../Models/DepartmentMaster.cs                     |   26 [31m-[m
+ .../Models/Evalution.cs                            |   45 [31m-[m
+ .../Models/Priority.cs                             |   29 [31m-[m
+ .../Models/Project.cs                              |   36 [31m-[m
+ .../Models/StatusMaster.cs                         |   19 [31m-[m
+ .../Models/Student.cs                              |   29 [31m-[m
+ .../Models/StudentProject.cs                       |   50 [31m-[m
+ .../Models/Tasks.cs                                |   47 [31m-[m
+ .../Models/UserRole.cs                             |   14 [31m-[m
+ .../Models/Users.cs                                |   44 [31m-[m
+ .../Models/WeeklyProgress.cs                       |   34 [31m-[m
+ .../Models/users_otp.cs                            |   27 [31m-[m
+ .../Student Project Management System/Program.cs   |  135 [31m-[m
+ .../Properties/launchSettings.json                 |   31 [31m-[m
+ .../Services/Interface/IAccountS
