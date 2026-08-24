@@ -259,9 +259,8 @@ The backend is built using **ASP.NET Core Web API**.
 * C#
 * ASP.NET Core
 * Entity Framework Core
-* PostgreSQL
+* MSSQL
 * Npgsql
-* AutoMapper
 * BCrypt.Net-Next
 * JWT Bearer Authentication
 * MailKit
@@ -276,14 +275,14 @@ Services
     ↓
 Data Access / EF Core
     ↓
-PostgreSQL
+MSSQL
 ```
 
 ---
 
 # 🗄️ Database
 
-The application uses **PostgreSQL** as the primary relational database.
+The application uses **MSSQL** as the primary relational database.
 
 Entity Framework Core is used as the ORM.
 
