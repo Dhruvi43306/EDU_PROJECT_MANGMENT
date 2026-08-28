@@ -143,7 +143,7 @@ Created Date
 Updated Date
 ```
 
-The system also maintains task progress information.
+The system also maintains task progress information!
 
 ### Task Statistics
 
