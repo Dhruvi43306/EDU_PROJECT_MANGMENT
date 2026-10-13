@@ -1,7 +1,7 @@
 # EDU_PROJECT_MANGMENT
 # 🎓 Student Project Management System
 
-> A modern full-stack web application for managing students, departments, academic projects, tasks, priorities, deadlines, and project progress through a centralized management platform!
+> A modern full-stack web application for managing students, departments, academic projects, tasks, priorities, deadlines, and project progress through a centralized management platform!!
 
 <p align="center">
 
