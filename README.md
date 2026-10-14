@@ -20,7 +20,7 @@
 
 The **Student Project Management System** is a full-stack web application designed to simplify the management of academic projects and student activities.
 
-The system provides a centralized platform where administrators and students can manage:
+The system provides a centralized platform where administrators and students can manage:-
 
 * 👨‍🎓 Students
 * 🏢 Departments
@@ -35,7 +35,7 @@ The system provides a centralized platform where administrators and students can
 * 📧 Email-based account workflows
 * 📈 Task completion statistics
 
-Instead of maintaining project information across spreadsheets, documents, and separate communication channels, the application brings everything together into one structured system.
+Instead of maintaining project information across spreadsheets, documents, and separate communication channels, the application brings everything together into one structured system!
 
 ---
 
@@ -43,7 +43,7 @@ Instead of maintaining project information across spreadsheets, documents, and s
 
 ## 🔐 Authentication & Authorization
 
-The system provides secure user authentication using JWT-based authentication.
+The system provides secure user authentication using JWT-based authentication!
 
 ### Features
 
